@@ -14,6 +14,9 @@ struct SurfaceTitleBar: View {
         if surfaceView.isUserSetTitle {
             return surfaceView.title
         }
+        if !surfaceView.title.isEmpty && surfaceView.title != "👻" {
+            return surfaceView.title
+        }
         if let pwd = surfaceView.pwd, !pwd.isEmpty, pwd != "/" {
             return URL(fileURLWithPath: pwd).lastPathComponent
         }
