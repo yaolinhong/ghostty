@@ -23,6 +23,12 @@
 
 ## About
 
+> [!NOTE]
+> **Fork Feature: macOS Native Per-Split Title Bar**
+>
+> This fork includes an always-visible, per-pane title bar for Ghostty on macOS with dynamic terminal title (OSC 0/2) synchronization and inline renaming — designed specifically for multi-agent workflows (Pi Agent / Codex / Claude Code).
+> See [docs/split-title-bar.md](docs/split-title-bar.md) for full documentation, screenshots, and build instructions.
+
 Ghostty is a terminal emulator that differentiates itself by being
 fast, feature-rich, and native. While there are many excellent terminal
 emulators available, they all force you to choose between speed,
